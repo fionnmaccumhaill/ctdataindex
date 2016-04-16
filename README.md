@@ -1,5 +1,5 @@
 # ctdataindex
-A simple node.js repository for retrieving and searching the CT Open Data index file.
+A simple node.js repository for retrieving the list of CT Open Datasets from Socrata.
 
 Usage:
 
