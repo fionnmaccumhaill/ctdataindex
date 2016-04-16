@@ -2,7 +2,7 @@
 A simple node.js repository for retrieving the list of CT Open Datasets from Socrata.
 
 Usage:
-
+```javascript
 var myidx = require('./lib/index.js');  
 var y = myidx.getSocrataList(); // returns an Object containing a Promise  
 var dsListPromise = y.dsPromise; // get the Promise from the Object  
@@ -11,6 +11,7 @@ dsListPromise.then(function (theList) {
 }).catch(function(listError) {  
     processError(listError);  
 });  
+```
 
 If you aren't familiar with Promises please check out these links:
 - https://www.npmjs.com/package/promise
