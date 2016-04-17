@@ -17,3 +17,7 @@ If you aren't familiar with Promises please check out these links:
 - https://www.npmjs.com/package/promise
 - http://stackoverflow.com/questions/4296505/understanding-promises-in-node-js?rq=1
 - http://www.2ality.com/2014/10/es6-promises-api.html
+
+The format of the list of datasets returned is described in the schema at:
+
+https://project-open-data.cio.gov/v1.1/schema/
