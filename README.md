@@ -1,6 +1,9 @@
 # ctdataindex
 A simple node.js package for retrieving the list of CT Open Datasets from Socrata.
 
+Intall the package:
+npm install ctdataindex
+
 Usage:
 ```javascript
 var myidx = require('ctdataindex');  

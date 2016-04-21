@@ -1,6 +1,6 @@
 {
   "name": "ctdataindex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple node.js package for retrieving the list of open datasets for CT",
   "main": "lib/index.js",
   "dependencies": {
