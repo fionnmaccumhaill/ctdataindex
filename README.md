@@ -1,9 +1,9 @@
 # ctdataindex
-A simple node.js repository for retrieving the list of CT Open Datasets from Socrata.
+A simple node.js package for retrieving the list of CT Open Datasets from Socrata.
 
 Usage:
 ```javascript
-var myidx = require('./lib/index.js');  
+var myidx = require('ctdataindex');  
 var y = myidx.getSocrataList(); // returns an Object containing a Promise  
 var dsListPromise = y.dsPromise; // get the Promise from the Object  
 dsListPromise.then(function (theList) {  
